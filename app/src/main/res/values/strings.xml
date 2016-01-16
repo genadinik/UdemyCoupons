@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">UdemyCoupons</string>
+    <string name="app_name">Udemy Coupons</string>
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cd_main_image">Main Image</string>
 </resources>

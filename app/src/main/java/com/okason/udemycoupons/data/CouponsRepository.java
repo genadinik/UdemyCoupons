@@ -8,16 +8,10 @@ import java.util.List;
  * Created by Valentine on 12/31/2015.
  */
 public interface CouponsRepository {
-    interface LoadCouponsCallback{
-        void onCouponsLoaded(List<Coupon> coupons);
-    }
 
-    interface GetCouponCallback{
-        void onCouponLoaded(Coupon coupon);
-    }
 
-    void getCoupon(@NonNull LoadCouponsCallback callback);
-    void getCoupon(@NonNull String couponId, @NonNull GetCouponCallback callback);
+    List<Coupon> getCoupons();
+    void getCoupon(@NonNull String couponId);
     void saveCoupon(@NonNull Coupon coupon);
     void refreshData();
 }
