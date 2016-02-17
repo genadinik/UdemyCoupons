@@ -12,8 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.google.gson.Gson;
 import com.okason.udemycoupons.R;
+import com.okason.udemycoupons.core.UdemyCouponApplication;
 import com.okason.udemycoupons.data.Category;
 import com.okason.udemycoupons.data.Coupon;
 
@@ -30,6 +33,8 @@ public class CouponsFragment extends Fragment{
     private CouponsAdapter mListAdapter;
     private  View mLayout;
     private List<Coupon> mCoupons = new ArrayList<Coupon>();
+    private Category mCategory = null;
+    private Tracker mTracker;
 
 
     public CouponsFragment() {
@@ -53,9 +58,9 @@ public class CouponsFragment extends Fragment{
         if (args != null && args.containsKey("category")){
             String jsonCategory = args.getString("category");
             Gson gson = new Gson();
-            Category category = gson.fromJson(jsonCategory, Category.class);
-            if (category != null){
-                mCoupons = category.getCoupons();
+            mCategory = gson.fromJson(jsonCategory, Category.class);
+            if (mCategory != null){
+                mCoupons = mCategory.getCoupons();
             }
         }
     }
@@ -95,18 +100,24 @@ public class CouponsFragment extends Fragment{
         recyclerView.setLayoutManager(mLayoutManager);
 
 
-//        List<Coupon> coupons = new ArrayList<Coupon>();
-//        CouponsRepository repository = new InMemoryCouponRepository();
-//        coupons = repository.getCoupons();
 
         mListAdapter = new CouponsAdapter(mCoupons, getActivity());
         recyclerView.setAdapter(mListAdapter);
 
-
+        if (getActivity() != null) {
+            UdemyCouponApplication application = (UdemyCouponApplication)getActivity().getApplication();
+            mTracker = application.getDefaultTracker();
+        }
 
         return mLayout;
     }
 
-
-
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mCategory != null && mTracker != null){
+            mTracker.setScreenName("Image~" + mCategory.getName());
+            mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        }
+    }
 }

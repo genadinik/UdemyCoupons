@@ -2,6 +2,7 @@ package com.okason.udemycoupons.coupons;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,9 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.gson.Gson;
 import com.okason.udemycoupons.R;
-import com.okason.udemycoupons.coupondetails.CouponDetailsActivity;
 import com.okason.udemycoupons.data.Coupon;
 import com.squareup.picasso.Picasso;
 
@@ -68,12 +67,10 @@ public class CouponsAdapter extends RecyclerView.Adapter<CouponsAdapter.ViewHold
                 holder.buyButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Gson gson = new Gson();
-                        String serializedCoupon = gson.toJson(coupon);
 
-                        Intent intent = new Intent(mContext, CouponDetailsActivity.class);
-                        intent.putExtra("URL", serializedCoupon);
-                        mContext.startActivity(intent);
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse(coupon.getCourseUrl()));
+                        mContext.startActivity(i);
                     }
                 });
             } catch (Exception e) {

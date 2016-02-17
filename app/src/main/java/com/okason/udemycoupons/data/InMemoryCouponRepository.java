@@ -190,7 +190,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon6.setTitle("Link-building for SEO");
         coupon6.setCouponName("discountapp");
         coupon6.setHeadline("Get amazing links by using publicity and other creative link-building strategies (sometimes written as linkbuilding)");
-        coupon6.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon6.setImageUrl("https://udemy-images.udemy.com/course/480x270/601864_f3f3_2.jpg");
         coupon6.setCourseUrl("https://www.udemy.com/link-building-for-seo/?couponCode=discountapp");
         coupon6.setExpirationDate("None");
         coupon6.setPrice(5.00);
@@ -201,7 +201,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon7.setTitle("How to make significant money on Fiverr");
         coupon7.setCouponName("discountapp");
         coupon7.setHeadline("How to make enough money from Fiverr to make it your full time job, or even get rich from it.");
-        coupon7.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon7.setImageUrl("https://udemy-images.udemy.com/course/750x422/516460_2178_3.jpg");
         coupon7.setCourseUrl("https://www.udemy.com/fiverr-how-to-get-rich-from-fiverr/?couponCode=discountapp");
         coupon7.setExpirationDate("None");
         coupon7.setPrice(5.00);
@@ -212,7 +212,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon8.setTitle("How to write a business plan");
         coupon8.setCouponName("discountapp");
         coupon8.setHeadline("Business plan course: Learn to write a great business plan, create a great business strategy & impress investors");
-        coupon8.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon8.setImageUrl("https://udemy-images.udemy.com/course/750x422/179174_fe95_3.jpg");
         coupon8.setCourseUrl("https://www.udemy.com/how-to-write-a-business-plan/?couponCode=discountapp");
         coupon8.setExpirationDate("None");
         coupon8.setPrice(5.00);
@@ -223,7 +223,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon9.setTitle("Marketing plan template: How to write a marketing plan");
         coupon9.setCouponName("discountapp");
         coupon9.setHeadline("With marketing plan template and example. Every marketing plan section explained so you can have a fantastic strategy");
-        coupon9.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon9.setImageUrl("https://udemy-images.udemy.com/course/750x422/581436_6a0c_2.jpg");
         coupon9.setCourseUrl("https://www.udemy.com/how-to-write-a-marketing-plan/?couponCode=discountapp");
         coupon9.setExpirationDate("None");
         coupon9.setPrice(5.00);
@@ -234,7 +234,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon10.setTitle("Affiliate Marketing");
         coupon10.setCouponName("discountapp");
         coupon10.setHeadline("Best affiliate marketing training: strategies to make money with affiliate marketing passive income business for 2015");
-        coupon10.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon10.setImageUrl("https://udemy-images.udemy.com/course/750x422/187248_731a_3.jpg");
         coupon10.setCourseUrl("https://www.udemy.com/make-money-with-affiliate-marketing-earn-passive-income/?couponCode=discountapp");
         coupon10.setExpirationDate("None");
         coupon10.setPrice(5.00);
@@ -245,7 +245,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon11.setTitle("YouTube success tips: How I got 1,000,000 views");
         coupon11.setCouponName("discountapp");
         coupon11.setHeadline("Learn the secrets and insight behind creating a successful YouTube channel and promote anything you want");
-        coupon11.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon11.setImageUrl("https://udemy-images.udemy.com/course/750x422/690694_f5f5_2.jpg");
         coupon11.setCourseUrl("https://www.udemy.com/youtube-success-tips-how-to-get-views/?couponCode=discountapp");
         coupon11.setExpirationDate("None");
         coupon11.setPrice(5.00);
@@ -256,7 +256,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon12.setTitle("22 Ways To Make Money Online");
         coupon12.setCouponName("discountapp");
         coupon12.setHeadline("Learn to fight with boxing, kickboxing, Muay Thai & self defense. Punches, kicks, & defense moves");
-        coupon12.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon12.setImageUrl("https://udemy-images.udemy.com/course/750x422/238728_81fb_3.jpg");
         coupon12.setCourseUrl("https://www.udemy.com/how-to-make-money/?couponCode=discountapp");
         coupon12.setExpirationDate("None");
         coupon12.setPrice(5.00);
@@ -267,7 +267,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon13.setTitle("Facebook marketing 2016: 1000%+ engagement");
         coupon13.setCouponName("discountapp");
         coupon13.setHeadline("Facebook marketing: increase organic engagement like comments, like and sharing by as much as 1,000% with these tactics");
-        coupon13.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon13.setImageUrl("https://udemy-images.udemy.com/course/750x422/242084_b4fd_3.jpg");
         coupon13.setCourseUrl("https://www.udemy.com/facebook-marketing-course/?couponCode=discountapp");
         coupon13.setExpirationDate("None");
         coupon13.setPrice(5.00);
@@ -278,7 +278,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon14.setTitle("Twitter marketing: 1000% engagement");
         coupon14.setCouponName("discountapp");
         coupon14.setHeadline("Twitter marketing: promote your business on Twitter, get more customers, retweets, and followers starting today!");
-        coupon14.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon14.setImageUrl("https://udemy-images.udemy.com/course/750x422/246450_8ab2_3.jpg");
         coupon14.setCourseUrl("https://www.udemy.com/twitter-marketing-course/?couponCode=discountapp");
         coupon14.setExpirationDate("None");
         coupon14.setPrice(5.00);
@@ -289,7 +289,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon15.setTitle("How to sell more handmade, affiliate & digital products NOW!");
         coupon15.setCouponName("discountapp");
         coupon15.setHeadline("How to sell any product or service on Amazon, Etsy,  SEO, social media, many other sites. & improve sales conversion");
-        coupon15.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon15.setImageUrl("https://udemy-images.udemy.com/course/750x422/368816_b594_2.jpg");
         coupon15.setCourseUrl("https://www.udemy.com/how-to-sell-any-product-generate-sales/?couponCode=discountapp");
         coupon15.setExpirationDate("None");
         coupon15.setPrice(5.00);
@@ -300,7 +300,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon16.setTitle("Publicity & Public Relations: Get Press Coverage Like A Pro");
         coupon16.setCouponName("discountapp");
         coupon16.setHeadline("Public Relations (PR): reach 100,000+ potential clients with fantastic strategies to get publicity & press coverage ASAP");
-        coupon16.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon16.setImageUrl("https://udemy-images.udemy.com/course/750x422/208456_3337_3.jpg");
         coupon16.setCourseUrl("https://www.udemy.com/how-to-get-publicity-and-press-coverage-for-your-business/?couponCode=discountapp");
         coupon16.setExpirationDate("None");
         coupon16.setPrice(5.00);
@@ -322,7 +322,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon18.setTitle("Startup & small business law: business registration & more");
         coupon18.setCouponName("discountapp");
         coupon18.setHeadline("Startup & small business law: business registration, intellectual property protection, online privacy & more");
-        coupon18.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon18.setImageUrl("https://udemy-images.udemy.com/course/750x422/585502_76c9_4.jpg");
         coupon18.setCourseUrl("https://www.udemy.com/startup-small-business-law-business-registration/?couponCode=discountapp");
         coupon18.setExpirationDate("None");
         coupon18.setPrice(5.00);
@@ -334,7 +334,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon19.setTitle("How to write your great book even if you are a bad writer");
         coupon19.setCouponName("discountapp");
         coupon19.setHeadline("How to writer your first great book with no writing or if you think you are a bad writer, and make money as an author");
-        coupon19.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon19.setImageUrl("hhttps://udemy-images.udemy.com/course/750x422/704140_7d19_2.jpg");
         coupon19.setCourseUrl("https://www.udemy.com/how-to-write-your-great-book-even-if-you-are-a-bad-writer/?couponCode=discountapp");
         coupon19.setExpirationDate("None");
         coupon19.setPrice(5.00);
@@ -345,7 +345,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon20.setTitle("Real Estate Careers");
         coupon20.setCouponName("discountapp");
         coupon20.setHeadline("Real estate career course. Get real estate career advice from a successful real estate agent who sold over $10,000,000");
-        coupon20.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon20.setImageUrl("https://udemy-images.udemy.com/course/750x422/207970_2dfd_2.jpg");
         coupon20.setCourseUrl("https://www.udemy.com/how-to-start-a-career-in-real-estate/?couponCode=discountapp");
         coupon20.setExpirationDate("None");
         coupon20.setPrice(5.00);
@@ -356,7 +356,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon21.setTitle("How to find your business niche");
         coupon21.setCouponName("discountapp");
         coupon21.setHeadline("Suggestions and guidance on how to find your business niche if you are struggling with starting your business");
-        coupon21.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon21.setImageUrl("https://udemy-images.udemy.com/course/750x422/477266_9395.jpg");
         coupon21.setCourseUrl("https://www.udemy.com/how-to-find-your-business-niche/?couponCode=discountapp");
         coupon21.setExpirationDate("None");
         coupon21.setPrice(5.00);
@@ -379,7 +379,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon23.setTitle("LinkedIn marketing: business lead generation to drive sales");
         coupon23.setCouponName("discountapp");
         coupon23.setHeadline("We will teach you LinkedIn marketing strategies for your business to drive targeted leads that convert to sales");
-        coupon23.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon23.setImageUrl("https://udemy-images.udemy.com/course/750x422/431986_9db7_3.jpg");
         coupon23.setCourseUrl("https://www.udemy.com/ultimate-secret-linkedin-strategies-for-networking-or-leads/?couponCode=discountapp");
         coupon23.setExpirationDate("None");
         coupon23.setPrice(5.00);
@@ -390,7 +390,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon24.setTitle("Philosophy of religion: spirituality and politics");
         coupon24.setCouponName("discountapp");
         coupon24.setHeadline("Philosophy of religion: spirituality and politics in religion (Buddhism, Islam, Christianity, Judaism, Hinduism, Taoism)");
-        coupon24.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon24.setImageUrl("https://udemy-images.udemy.com/course/750x422/424998_bd9c.jpg");
         coupon24.setCourseUrl("https://www.udemy.com/philosophy-of-religion-spirituality/?couponCode=discountapp");
         coupon24.setExpirationDate("None");
         coupon24.setPrice(5.00);
@@ -403,7 +403,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon25.setTitle("How to Strike Up Conversations with Women and Enjoy Doing it");
         coupon25.setCouponName("discountapp");
         coupon25.setHeadline("Meet more women by learning to approach them more successfully");
-        coupon25.setImageUrl("https://udemy-images.udemy.com/course/480x270/375288_7faa_3.jpg");
+        coupon25.setImageUrl("https://udemy-images.udemy.com/course/750x422/656722_b804_3.jpg");
         coupon25.setCourseUrl("https://www.udemy.com/how-to-successfully-approach-women-anywhere/?couponCode=discountapp");
         coupon25.setExpirationDate("None");
         coupon25.setPrice(5.00);

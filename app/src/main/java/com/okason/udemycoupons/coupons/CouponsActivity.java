@@ -92,5 +92,7 @@ public class CouponsActivity extends AppCompatActivity {
             Category selectedCategory = mCategories.get(position);
             return selectedCategory.getName();
         }
+
+
     }
 }
