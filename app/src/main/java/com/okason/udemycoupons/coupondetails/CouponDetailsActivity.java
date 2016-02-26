@@ -16,9 +16,12 @@ public class CouponDetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_coupon_details);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        if (getIntent().getExtras() == null || !getIntent().getExtras().containsKey("URL")){
+        if (getIntent().getExtras() == null || !getIntent().getExtras().containsKey("URL"))
+        {
             startActivity(new Intent(CouponDetailsActivity.this, CouponsActivity.class));
-        }else {
+        }
+        else
+        {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container,
                             CouponDetailFragment.newInstance

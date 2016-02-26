@@ -30,7 +30,8 @@ public class CouponsActivity extends AppCompatActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coupons);
         ButterKnife.bind(this);
@@ -60,7 +61,8 @@ public class CouponsActivity extends AppCompatActivity {
 //        });
     }
 
-    private void setupViewPager(){
+    private void setupViewPager()
+    {
         InMemoryCouponRepository repository = new InMemoryCouponRepository();
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         mCategories = repository.getPopulatedCategories();
@@ -69,7 +71,8 @@ public class CouponsActivity extends AppCompatActivity {
 
 
 
-    public class ViewPagerAdapter extends FragmentStatePagerAdapter{
+    public class ViewPagerAdapter extends FragmentStatePagerAdapter
+    {
         public ViewPagerAdapter(FragmentManager fm){
             super(fm);
         }

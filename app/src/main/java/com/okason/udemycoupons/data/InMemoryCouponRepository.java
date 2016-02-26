@@ -102,7 +102,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         Category category12 = new Category(12, "Marketing");
         categories.add(category12);
 
-        Category category13 = new Category(13, "Math-and-Science");
+        Category category13 = new Category(13, "Social Media");
         categories.add(category13);
 
         Category category14 = new Category(14, "Music");
@@ -123,17 +123,20 @@ public class InMemoryCouponRepository implements CouponsRepository {
         Category category19 = new Category(19, "Sports");
         categories.add(category19);
 
-        Category category20 = new Category(20, "Teacher-Training");
+        Category category20 = new Category(20, "Publicity");
         categories.add(category20);
 
         Category category21 = new Category(21, "Technology");
         categories.add(category21);
 
-        Category category22 = new Category(22, "Test");
+        Category category23 = new Category(23, "Make Money");
+        categories.add(category23);
+
+        Category category22 = new Category(22, "Offline Marketing");
         categories.add(category22);
 
-        Category category23 = new Category(23, "Test Prep");
-        categories.add(category23);
+        Category category24 = new Category(23, "FREE");
+        categories.add(category24);
 
         return categories;
     }
@@ -148,7 +151,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon2.setCourseUrl("https://www.udemy.com/android-app-development-in-3-days-1000000-downloads/?couponCode=discountapp");
         coupon2.setExpirationDate("01/31/2016");
         coupon2.setPrice(5.00);
-        coupon2.setCategoryId(2);
+        coupon2.setCategoryId(5);
         coupons.add(coupon2);
 
 
@@ -183,7 +186,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon5.setCourseUrl("https://www.udemy.com/learn-to-fight-get-fit-boxing-kickboxing-self-defense/?couponCode=discountapp");
         coupon5.setExpirationDate("None");
         coupon5.setPrice(5.00);
-        coupon5.setCategoryId(5);
+        coupon5.setCategoryId(19);
         coupons.add(coupon5);
 
         Coupon coupon6 = new Coupon();
@@ -205,7 +208,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon7.setCourseUrl("https://www.udemy.com/fiverr-how-to-get-rich-from-fiverr/?couponCode=discountapp");
         coupon7.setExpirationDate("None");
         coupon7.setPrice(5.00);
-        coupon7.setCategoryId(2);
+        coupon7.setCategoryId(23);
         coupons.add(coupon7);
 
         Coupon coupon8 = new Coupon();
@@ -238,7 +241,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon10.setCourseUrl("https://www.udemy.com/make-money-with-affiliate-marketing-earn-passive-income/?couponCode=discountapp");
         coupon10.setExpirationDate("None");
         coupon10.setPrice(5.00);
-        coupon10.setCategoryId(2);
+        coupon10.setCategoryId(23);
         coupons.add(coupon10);
 
         Coupon coupon11 = new Coupon();
@@ -249,7 +252,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon11.setCourseUrl("https://www.udemy.com/youtube-success-tips-how-to-get-views/?couponCode=discountapp");
         coupon11.setExpirationDate("None");
         coupon11.setPrice(5.00);
-        coupon11.setCategoryId(12);
+        coupon11.setCategoryId(13);
         coupons.add(coupon11);
 
         Coupon coupon12 = new Coupon();
@@ -260,7 +263,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon12.setCourseUrl("https://www.udemy.com/how-to-make-money/?couponCode=discountapp");
         coupon12.setExpirationDate("None");
         coupon12.setPrice(5.00);
-        coupon12.setCategoryId(2);
+        coupon12.setCategoryId(23);
         coupons.add(coupon12);
 
         Coupon coupon13 = new Coupon();
@@ -271,7 +274,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon13.setCourseUrl("https://www.udemy.com/facebook-marketing-course/?couponCode=discountapp");
         coupon13.setExpirationDate("None");
         coupon13.setPrice(5.00);
-        coupon13.setCategoryId(12);
+        coupon13.setCategoryId(13);
         coupons.add(coupon13);
 
         Coupon coupon14 = new Coupon();
@@ -282,7 +285,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon14.setCourseUrl("https://www.udemy.com/twitter-marketing-course/?couponCode=discountapp");
         coupon14.setExpirationDate("None");
         coupon14.setPrice(5.00);
-        coupon14.setCategoryId(12);
+        coupon14.setCategoryId(13);
         coupons.add(coupon14);
 
         Coupon coupon15 = new Coupon();
@@ -293,7 +296,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon15.setCourseUrl("https://www.udemy.com/how-to-sell-any-product-generate-sales/?couponCode=discountapp");
         coupon15.setExpirationDate("None");
         coupon15.setPrice(5.00);
-        coupon15.setCategoryId(2);
+        coupon15.setCategoryId(23);
         coupons.add(coupon15);
 
         Coupon coupon16 = new Coupon();
@@ -304,7 +307,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon16.setCourseUrl("https://www.udemy.com/how-to-get-publicity-and-press-coverage-for-your-business/?couponCode=discountapp");
         coupon16.setExpirationDate("None");
         coupon16.setPrice(5.00);
-        coupon16.setCategoryId(12);
+        coupon16.setCategoryId(20);
         coupons.add(coupon16);
 
         Coupon coupon17 = new Coupon();
@@ -315,7 +318,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon17.setCourseUrl("https://www.udemy.com/how-to-sell-with-video/?couponCode=discountapp");
         coupon17.setExpirationDate("None");
         coupon17.setPrice(5.00);
-        coupon17.setCategoryId(2);
+        coupon17.setCategoryId(13);
         coupons.add(coupon17);
 
         Coupon coupon18 = new Coupon();
@@ -334,11 +337,11 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon19.setTitle("How to write your great book even if you are a bad writer");
         coupon19.setCouponName("discountapp");
         coupon19.setHeadline("How to writer your first great book with no writing or if you think you are a bad writer, and make money as an author");
-        coupon19.setImageUrl("hhttps://udemy-images.udemy.com/course/750x422/704140_7d19_2.jpg");
+        coupon19.setImageUrl("https://udemy-images.udemy.com/course/750x422/704140_7d19_2.jpg");
         coupon19.setCourseUrl("https://www.udemy.com/how-to-write-your-great-book-even-if-you-are-a-bad-writer/?couponCode=discountapp");
         coupon19.setExpirationDate("None");
         coupon19.setPrice(5.00);
-        coupon19.setCategoryId(2);
+        coupon19.setCategoryId(23);
         coupons.add(coupon19);
 
         Coupon coupon20 = new Coupon();
@@ -383,7 +386,7 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon23.setCourseUrl("https://www.udemy.com/ultimate-secret-linkedin-strategies-for-networking-or-leads/?couponCode=discountapp");
         coupon23.setExpirationDate("None");
         coupon23.setPrice(5.00);
-        coupon23.setCategoryId(12);
+        coupon23.setCategoryId(13);
         coupons.add(coupon23);
 
         Coupon coupon24 = new Coupon();
@@ -398,9 +401,10 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupons.add(coupon24);
 
 
+        // DATING
 
         Coupon coupon25 = new Coupon();
-        coupon25.setTitle("How to Strike Up Conversations with Women and Enjoy Doing it");
+        coupon25.setTitle("How to strike up conversations with women and enjoy doing it");
         coupon25.setCouponName("discountapp");
         coupon25.setHeadline("Meet more women by learning to approach them more successfully");
         coupon25.setImageUrl("https://udemy-images.udemy.com/course/750x422/656722_b804_3.jpg");
@@ -409,6 +413,188 @@ public class InMemoryCouponRepository implements CouponsRepository {
         coupon25.setPrice(5.00);
         coupon25.setCategoryId(11);
         coupons.add(coupon25);
+
+        Coupon coupon32 = new Coupon();
+        coupon32.setTitle("Body language for dating");
+        coupon32.setCouponName("discountapp");
+        coupon32.setHeadline("Body language strategies to use on your dates");
+        coupon32.setImageUrl("https://udemy-images.udemy.com/course/480x270/657108_5816_3.jpg");
+        coupon32.setCourseUrl("https://www.udemy.com/non-verbal-communication-for-dating/?couponCode=discountapp");
+        coupon32.setExpirationDate("None");
+        coupon32.setPrice(5.00);
+        coupon32.setCategoryId(11);
+        coupons.add(coupon32);
+
+        Coupon coupon33 = new Coupon();
+        coupon33.setTitle("Unlock your charisma for dating");
+        coupon33.setCouponName("discountapp");
+        coupon33.setHeadline("Master confidence and appear charismatic");
+        coupon33.setImageUrl("https://udemy-images.udemy.com/course/480x270/656710_064a.jpg");
+        coupon33.setCourseUrl("https://www.udemy.com/dating-confidence-for-men/?couponCode=discountapp");
+        coupon33.setExpirationDate("None");
+        coupon33.setPrice(5.00);
+        coupon33.setCategoryId(11);
+        coupons.add(coupon33);
+
+        Coupon coupon34 = new Coupon();
+        coupon34.setTitle("Men: what to do on your first date");
+        coupon34.setCouponName("discountapp");
+        coupon34.setHeadline("Learn how to have successful first dates");
+        coupon34.setImageUrl("https://udemy-images.udemy.com/course/480x270/656414_4220_4.jpg");
+        coupon34.setCourseUrl("https://www.udemy.com/for-men-what-to-do-on-a-first-date-and-have-dating-success/?couponCode=discountapp");
+        coupon34.setExpirationDate("None");
+        coupon34.setPrice(5.00);
+        coupon34.setCategoryId(11);
+        coupons.add(coupon34);
+
+        Coupon coupon35 = new Coupon();
+        coupon35.setTitle("Men: what to do on your second date");
+        coupon35.setCouponName("discountapp");
+        coupon35.setHeadline("Learn how to have successful second dates");
+        coupon35.setImageUrl("https://udemy-images.udemy.com/course/480x270/656506_fe77_4.jpg");
+        coupon35.setCourseUrl("https://www.udemy.com/men-what-to-do-on-a-second-date/?couponCode=discountapp");
+        coupon35.setExpirationDate("None");
+        coupon35.setPrice(5.00);
+        coupon35.setCategoryId(11);
+        coupons.add(coupon35);
+
+        Coupon coupon36 = new Coupon();
+        coupon36.setTitle("Dating image for men");
+        coupon36.setCouponName("discountapp");
+        coupon36.setHeadline("Learn how to come across as your coolest and best self");
+        coupon36.setImageUrl("https://udemy-images.udemy.com/course/480x270/655344_0aa4_3.jpg");
+        coupon36.setCourseUrl("https://www.udemy.com/men-improve-your-image-style-for-dating-to-wow-women/?couponCode=discountapp");
+        coupon36.setExpirationDate("None");
+        coupon36.setPrice(5.00);
+        coupon36.setCategoryId(11);
+        coupons.add(coupon36);
+
+        // END OF DATING
+
+        Coupon coupon26 = new Coupon();
+        coupon26.setTitle("Build more engaging consumer products");
+        coupon26.setCouponName("discountapp");
+        coupon26.setHeadline("How to find your voice that resonates with your customers");
+        coupon26.setImageUrl("https://udemy-images.udemy.com/course/480x270/704144_bb16_2.jpg");
+        coupon26.setCourseUrl("https://www.udemy.com/how-to-find-your-voice-the-resonates-with-your-customers/?couponCode=discountapp");
+        coupon26.setExpirationDate("None");
+        coupon26.setPrice(5.00);
+        coupon26.setCategoryId(4);
+        coupons.add(coupon26);
+
+        Coupon coupon27 = new Coupon();
+        coupon27.setTitle("How to make money on clarity");
+        coupon27.setCouponName("discountapp");
+        coupon27.setHeadline("How to make significant money on claity");
+        coupon27.setImageUrl("https://udemy-images.udemy.com/course/480x270/738286_f7b5.jpg");
+        coupon27.setCourseUrl("https://www.udemy.com/how-to-make-significant-money-freelancing-on-clarity/?couponCode=discountapp");
+        coupon27.setExpirationDate("None");
+        coupon27.setPrice(5.00);
+        coupon27.setCategoryId(23);
+        coupons.add(coupon27);
+
+        Coupon coupon28 = new Coupon();
+        coupon28.setTitle("How to make thousands of percent more from customers");
+        coupon28.setCouponName("discountapp");
+        coupon28.setHeadline("Increase the revenue you get from current customers");
+        coupon28.setImageUrl("https://udemy-images.udemy.com/course/480x270/704138_6c4e_2.jpg");
+        coupon28.setCourseUrl("https://www.udemy.com/how-to-generate-up-to-1000-more-revenue-from-your-customers/?couponCode=discountapp");
+        coupon28.setExpirationDate("None");
+        coupon28.setPrice(5.00);
+        coupon28.setCategoryId(23);
+        coupons.add(coupon28);
+
+        Coupon coupon29 = new Coupon();
+        coupon29.setTitle("Flier marketing");
+        coupon29.setCouponName("discountapp");
+        coupon29.setHeadline("How to promote your business with flyers");
+        coupon29.setImageUrl("https://udemy-images.udemy.com/course/480x270/676800_0efb.jpg");
+        coupon29.setCourseUrl("https://www.udemy.com/flyers-marketing-design-the-perfect-flier-and-get-clients/?couponCode=discountapp");
+        coupon29.setExpirationDate("None");
+        coupon29.setPrice(5.00);
+        coupon29.setCategoryId(22);
+        coupons.add(coupon29);
+
+        Coupon coupon30 = new Coupon();
+        coupon30.setTitle("Business card marketing");
+        coupon30.setCouponName("discountapp");
+        coupon30.setHeadline("How to promote your business with business cards");
+        coupon30.setImageUrl("https://udemy-images.udemy.com/course/480x270/676798_d062_2.jpg");
+        coupon30.setCourseUrl("https://www.udemy.com/business-card-marketing-business-networking/?couponCode=discountapp");
+        coupon30.setExpirationDate("None");
+        coupon30.setPrice(5.00);
+        coupon30.setCategoryId(22);
+        coupons.add(coupon30);
+
+        Coupon coupon31 = new Coupon();
+        coupon31.setTitle("Napoleon Hill: 13 keys to success from Think and Grow Rich");
+        coupon31.setCouponName("discountapp");
+        coupon31.setHeadline("Napoleon Hill: 13 keys to success from Think and Grow Rich");
+        coupon31.setImageUrl("https://udemy-images.udemy.com/course/480x270/738298_3085.jpg");
+        coupon31.setCourseUrl("https://www.udemy.com/napoleon-hills-keys-to-success-from-think-and-grow-rich/?couponCode=discountapp");
+        coupon31.setExpirationDate("None");
+        coupon31.setPrice(5.00);
+        coupon31.setCategoryId(16);
+        coupons.add(coupon31);
+
+        Coupon coupon37 = new Coupon();
+        coupon37.setTitle("How to do a pull-up");
+        coupon37.setCouponName("discountapp");
+        coupon37.setHeadline("Work up to one pull-up and then do many");
+        coupon37.setImageUrl("https://udemy-images.udemy.com/course/480x270/652250_02bf_2.jpg");
+        coupon37.setCourseUrl("https://www.udemy.com/how-to-do-a-pull-up-or-work-up-to-a-pull-up-and-do-many/?couponCode=discountapp");
+        coupon37.setExpirationDate("None");
+        coupon37.setPrice(5.00);
+        coupon37.setCategoryId(19);
+        coupons.add(coupon37);
+
+        Coupon coupon38 = new Coupon();
+        coupon38.setTitle("How to get publicity from radio and podcasts");
+        coupon38.setCouponName("discountapp");
+        coupon38.setHeadline("Learn my strategies that got me 50+ radio and podcast interviews to promote my business in one year");
+        coupon38.setImageUrl("https://udemy-images.udemy.com/course/480x270/628008_7d84_2.jpg");
+        coupon38.setCourseUrl("https://www.udemy.com/how-i-got-50-podcast-appearances-using-radioguestlist/?couponCode=discountapp");
+        coupon38.setExpirationDate("None");
+        coupon38.setPrice(5.00);
+        coupon38.setCategoryId(20);
+        coupons.add(coupon38);
+
+        Coupon coupon39 = new Coupon();
+        coupon39.setTitle("Selling on eBay");
+        coupon39.setCouponName("discountapp");
+        coupon39.setHeadline("Selling on eBay: Make Money Online Dropshipping Products");
+        coupon39.setImageUrl("https://udemy-images.udemy.com/course/480x270/127438_37aa_21.jpg");
+        coupon39.setCourseUrl("https://www.udemy.com/how-to-make-money-by-spending-no-money-upfront/?couponCode=discountapp");
+        coupon39.setExpirationDate("None");
+        coupon39.setPrice(5.00);
+        coupon39.setCategoryId(23);
+        coupons.add(coupon39);
+
+        Coupon coupon40 = new Coupon();
+        coupon40.setTitle("Webinar Success");
+        coupon40.setCouponName("SuperStar14");
+        coupon40.setHeadline("Webinar Success: Broadcast Webinars Like A Pro");
+        coupon40.setImageUrl("https://udemy-images.udemy.com/course/480x270/480058_4dc3_3.jpg");
+        coupon40.setCourseUrl("https://www.udemy.com/webinar-marketing/?couponCode=SuperStar14");
+        coupon40.setExpirationDate("None");
+        coupon40.setPrice(5.00);
+        coupon40.setCategoryId(20);
+        coupons.add(coupon40);
+
+        Coupon coupon41 = new Coupon();
+        coupon41.setTitle("Advanced Twitter Marketing");
+        coupon41.setCouponName("SuperStar14");
+        coupon41.setHeadline("Use Twitter automation tools to grow followers and engagement");
+        coupon41.setImageUrl("https://udemy-images.udemy.com/course/480x270/628006_85c8_2.jpg");
+        coupon41.setCourseUrl("https://www.udemy.com/how-to-get-many-new-twitter-followers/?couponCode=discountapp");
+        coupon41.setExpirationDate("None");
+        coupon41.setPrice(5.00);
+        coupon41.setCategoryId(20);
+        coupons.add(coupon41);
+
+
+
+
 
 
     }
