@@ -9,9 +9,12 @@ import com.okason.udemycoupons.R;
 /**
  * Created by Valentine on 1/15/2016.
  */
-public class UdemyCouponApplication extends Application {
+public class UdemyCouponApplication extends Application
+{
     private static Tracker mTracker;
     private static GoogleAnalytics analytics;
+
+
 
     synchronized public Tracker getDefaultTracker(){
         if (mTracker == null){

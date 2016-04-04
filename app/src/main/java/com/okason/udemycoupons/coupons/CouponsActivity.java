@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.okason.udemycoupons.R;
@@ -19,7 +20,8 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class CouponsActivity extends AppCompatActivity {
+public class CouponsActivity extends AppCompatActivity
+{
 
     @Bind(R.id.toolbar)Toolbar toolbar;
     @Bind(R.id.tabs) TabLayout tabLayout;
@@ -40,7 +42,9 @@ public class CouponsActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
 
-
+        Toast.makeText(getApplicationContext(), "The app now has 47 courses!" +
+                "\n\n" +
+                "Please browse all categories at the top of the screen", Toast.LENGTH_LONG).show();
 
 
         //viewPager = (ViewPager)
